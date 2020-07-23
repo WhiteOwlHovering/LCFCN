@@ -10,7 +10,7 @@ from . import transformers
 
 
 
-class Trancos(data.Dataset):
+class VirtualOR(data.Dataset):
     def __init__(self, split, datadir, exp_dict):
         self.split = split
         self.exp_dict = exp_dict
